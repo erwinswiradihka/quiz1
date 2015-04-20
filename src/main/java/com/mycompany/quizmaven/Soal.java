@@ -10,7 +10,7 @@ package com.mycompany.quizmaven;
  */
 public class Soal {
     
-    public  int pangkat (int bil,int pangkat){
+    public  int pangkat (int bil,int pangka){
         int hasil = 0;
         int n = 1;
         while(n <= pangkat){
