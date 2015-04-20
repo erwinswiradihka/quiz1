@@ -10,10 +10,10 @@ package com.mycompany.quizmaven;
  */
 public class Soal {
     
-    public  int pangkat (int bil,int pangkat){
+    public  int pangkat (int bil,int level){
         int hasil = 0;
         int n = 1;
-        while(n <= pangkat){
+        while(n <= level){
             n++;
             hasil *= bil;
             }
